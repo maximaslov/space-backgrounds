@@ -1,0 +1,42 @@
+button {
+    transition: transform 0.25s ease;
+}
+
+.button {
+    color: gold;
+    position: relative;
+    z-index: 3;
+    background: none;
+    font-size: 20px;
+    border: solid 1px gold;
+    padding: 10px;
+    border-radius: 10px
+}
+   
+.button:hover {
+    background-color: rgba(255, 255, 255, 0.119);
+    transform: scale(1.1);
+    color: white;
+}
+
+   .buttonActive {
+    color: gold;
+    position: relative;
+    z-index: 3;
+    background: none;
+    font-size: 20px;
+    border: solid 1px gold;
+    padding: 10px;
+    border-radius: 10px;
+    transform: scale(1.2);
+    color: white;
+   }
+
+   .buttonActive:hover{
+    color: rgba(255, 255, 255, 0.212);
+   }
+
+   .btns {
+    display: flex;
+    gap: 20px
+   }
